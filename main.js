@@ -35,8 +35,14 @@ for(i=0; i<box3.length; i++) {
 
 // When any one of the three boxes are clicked, have a button that says “Start Over” with an href of “index.html” appear 
 
-var allBoxes = document.getElementsByClassName('row');
+// var allBoxes = document.getElementsByClassName('row');
 
-for(i=0; i<allBoxes.length; i++) {
-    allBoxes[i].addEventListener('click', function(){ alert("Start Over");});
-}
+// for(i=0; i<allBoxes.length; i++) {
+//     allBoxes[i].addEventListener('click', function(){ alert("Start Over");});
+// }
+
+$(document).ready(function(){
+    $('row').click(function() {
+      $('.menu').toggle("slide");
+    });
+});
