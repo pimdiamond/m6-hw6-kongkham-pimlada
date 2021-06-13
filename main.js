@@ -1,3 +1,5 @@
+// When a user hovers over any one of the boxes, highlight all of the boxes with a different background color
+
 window.onmouseover  = myFunction;
 
 function myFunction() {
