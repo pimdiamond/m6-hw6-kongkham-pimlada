@@ -42,3 +42,6 @@ for(i=0; i<box3.length; i++) {
 // }
 
 var startover_button = document.getElementsByClassName('hidden')[0]
+for(i=0; i<startover_button.length; i++) {
+    bstartover_button[i].addEventListener('click', function(){ alert("Start Over");});
+}

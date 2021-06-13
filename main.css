@@ -61,3 +61,7 @@
     box-shadow: 10px 13px 8px 2px rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
     
   }
+
+  .hidden {
+    display: none;
+    }
