@@ -41,8 +41,4 @@ for(i=0; i<box3.length; i++) {
 //     allBoxes[i].addEventListener('click', function(){ alert("Start Over");});
 // }
 
-$(document).ready(function(){
-    $('row').click(function() {
-      $('.menu').toggle("slide");
-    });
-});
+var startover_button = document.getElementsByClassName('hidden')[0]
