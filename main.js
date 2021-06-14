@@ -4,8 +4,8 @@ window.onmouseover  = myFunction;
 
 function myFunction() {
   document.getElementsByClassName("b1")[0].style.backgroundColor = "green";
-    document.getElementsByClassName("b2")[0].style.backgroundColor = "white";
-      document.getElementsByClassName("b3")[0].style.backgroundColor = "red";
+  document.getElementsByClassName("b2")[0].style.backgroundColor = "white";
+  document.getElementsByClassName("b3")[0].style.backgroundColor = "red";
 }
 
 
@@ -35,13 +35,11 @@ for(i=0; i<box3.length; i++) {
 
 // When any one of the three boxes are clicked, have a button that says “Start Over” with an href of “index.html” appear 
 
-// var allBoxes = document.getElementsByClassName('row');
+var startover_button = document.getElementsByClassName('hidden')[0];
+var row = document.getElementsByClassName('row');
 
-// for(i=0; i<allBoxes.length; i++) {
-//     allBoxes[i].addEventListener('click', function(){ alert("Start Over");});
-// }
 
-var startover_button = document.getElementsByClassName('hidden')[0]
-for(i=0; i<startover_button.length; i++) {
-    bstartover_button[i].addEventListener('click', function(){ alert("Start Over");});
-}
+for(i=0; i<startover_button; i++) {
+    startover_button[i].addEventListener('click',function(){ alert("Start Over");});
+    }
+
