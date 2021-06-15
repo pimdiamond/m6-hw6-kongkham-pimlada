@@ -35,14 +35,18 @@ for(i=0; i<box3.length; i++) {
 
 // When any one of the three boxes are clicked, have a button that says “Start Over” with an href of “index.html” appear 
 
-var startButton = document.getElementsByClassName('hidden')[0];
+// var startButton = document.getElementsByClassName('hidden')[0];
 var allBoxes = document.getElementsByClassName('row');
+
+var button = document.getElementsByClassName('hidden')[0];
+
+allBoxes[0].addEventListener('click', function(){button.classList.remove('hidden')});
 
 // document.getElementsByClassName('row').addEventListener('click',startButton);
 
-for(i=0; i<allBoxes.length; i++) {
-    allBoxes[i].addEventListener('click', function (){ alert('Start Over');});
-}
+// for(i=0; i<allBoxes.length; i++) {
+//     allBoxes[i].addEventListener('click', function (){ alert('Start Over');});
+// }
 
 
 // var startover_button = document.getElementsByClassName('hidden')[0];
